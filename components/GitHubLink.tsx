@@ -8,8 +8,8 @@ import {
 } from "@/components/ui/tooltip";
 
 export function GitHubLink() {
-  const Name = "AshrithSathu";
-
+  const githubUrl = "https://github.com/ashrithsathu/videoviewer/";
+  const Name = "Ashrith Sathu";
   return (
     <div className="fixed bottom-4 right-4 z-50">
       <TooltipProvider>
