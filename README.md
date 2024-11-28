@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Video Viewer
+
+A modern, feature-rich video player application built with Next.js and shadcn/ui components. This application allows users to upload and play video files with captions, featuring an intuitive file explorer and advanced playback controls.
+
+## Features
+
+- **Advanced Video Playback**
+
+  - Play/Pause with spacebar
+  - Seek forward/backward with arrow keys
+  - Volume control with up/down arrows
+  - Mute/Unmute toggle with 'M' key
+  - Caption support
+  - Progress bar with seek functionality
+  - Volume slider with visual feedback
+
+- **File Management**
+
+  - Directory upload support
+  - Drag-and-drop functionality
+  - File search and filtering
+  - Collapsible file explorer
+  - Support for multiple video formats
+
+- **Modern UI/UX**
+  - Dark theme optimized for video viewing
+  - Responsive design
+  - Keyboard shortcuts
+  - Clean, intuitive interface
+  - Real-time file search
+  - Loading indicators
+
+## Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org)
+- **UI Components**: [shadcn/ui](https://ui.shadcn.com/)
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Type Safety**: TypeScript
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+
+```bash
+git clone [your-repo-url]
+cd videoviewer
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Upload Videos**
 
-## Learn More
+   - Click the upload button or drag-and-drop files
+   - Support for directory uploads
+   - Accepts common video formats
 
-To learn more about Next.js, take a look at the following resources:
+2. **Video Controls**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   - Space: Play/Pause
+   - Left/Right Arrow: Seek backward/forward
+   - Up/Down Arrow: Adjust volume
+   - M: Mute/Unmute
+   - Click on progress bar to seek
+   - Drag volume slider to adjust audio
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **File Management**
+   - Use the search bar to filter files
+   - Click on files to play them
+   - Collapse file explorer to maximize video view
 
-## Deploy on Vercel
+## Development
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) and is optimized for modern web browsers. The codebase is written in TypeScript for better type safety and developer experience.
+
+## Deployment
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+[MIT](LICENSE)
