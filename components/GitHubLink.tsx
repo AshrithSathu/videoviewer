@@ -8,8 +8,8 @@ import {
 } from "@/components/ui/tooltip";
 
 export function GitHubLink() {
-  const githubUrl = "https://github.com/ashrithsathu/videoviewer/";
-  
+  const Name = "AshrithSathu";
+
   return (
     <div className="fixed bottom-4 right-4 z-50">
       <TooltipProvider>
@@ -24,8 +24,11 @@ export function GitHubLink() {
               <Github className="w-6 h-6 text-white hover:text-white/80" />
             </Link>
           </TooltipTrigger>
-          <TooltipContent side="left" className="bg-black/90 text-white border-none">
-            <p>{githubUrl}</p>
+          <TooltipContent
+            side="left"
+            className="bg-black/90 text-white border-none"
+          >
+            <p>{Name}</p>
           </TooltipContent>
         </Tooltip>
       </TooltipProvider>
