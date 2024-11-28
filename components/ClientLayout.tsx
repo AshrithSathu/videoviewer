@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { GitHubLink } from './GitHubLink';
 
 export default function ClientLayout({
   children,
@@ -17,5 +18,10 @@ export default function ClientLayout({
     return null;
   }
 
-  return <>{children}</>;
+  return (
+    <>
+      {children}
+      <GitHubLink />
+    </>
+  );
 }
